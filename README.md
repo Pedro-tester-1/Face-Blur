@@ -66,6 +66,13 @@ face_blur\Scripts\activate
  
 ---
  
+## Customization
+ 
+- **Virtual environment name** — You can change the venv name by editing `setup.py` and replacing `face_blur` with any name you prefer. Make sure to update the activation command accordingly.
+- **Skip virtual environment creation** — If you prefer to manage dependencies manually or use a global environment, you can install the requirements directly with `pip install -r requirements.txt` and skip the `setup.py` step.
+- **Modify the script** — `face_blur.py` is designed to be easily adjustable. Feel free to modify blur intensity, detection sensitivity, or any other behavior to fit your specific use case.
+---
+ 
 ## Usage
  
 ```bash
@@ -73,3 +80,4 @@ python face_blur.py
 ```
  
 Press `q` to quit.
+ 

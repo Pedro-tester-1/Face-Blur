@@ -1,0 +1,5 @@
+venv/
+face_blur/
+__pycache__/
+*.pyc
+.vscode/
